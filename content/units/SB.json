@@ -1,0 +1,55 @@
+{
+    "type":"flying",
+    "flying":true,
+    "name":"SB",
+    "description":"SB核心机,拥有极大的物品容量,超快的建造速度和挖掘速度!",
+    "details":"这不是修复器,这是单位护盾修复器!",
+    "health": 13500,
+    "armor": 8,
+    "mineFloor": true,
+    "mineWalls": true,
+    "speed":8,
+    "mineSpeed": 26,
+    "mineTier": 10,
+    "buildSpeed": 12,
+    "itemCapacity": 255,
+    "alwaysUnlocked":false,
+    "abilities": [
+        {
+        "type":"ShieldRegenFieldAbility",
+        "reload": 20,
+        "range": 160,
+        "amount":80,
+        "max": 6500
+        }
+    ],
+    "weapons": [
+        {
+            "x": 0,
+            "y": 0,
+            "reload":12,
+            "rotate": false,
+            "mirror": false,
+            "bullet": {
+                "type": "BasicBulletType",
+                "speed": 8,
+                "damage": 120,
+                "width": 13,
+                "height": 19,
+                "hitSize": 7,
+                "pierce": true,
+                "trailWidth": 2.2,
+                "trailLength": 11,
+                "pierceBuilding":true,
+                "healPercent":2,
+                "collidesTeam":true,
+                "buildingDamageMultiplier":0.005
+            }
+        }
+    ],
+    "hitSize":5,
+    "research":{
+        "parent":"SB核心",
+        "requirements":[]
+    }
+}

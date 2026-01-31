@@ -1,0 +1,40 @@
+{
+  "type": "flying",
+  "localizedName": "远古齐射之神",
+  "description":"上古时期的齐射神",
+  "details":"齐射打不过双管?",
+  "flying": true,
+  "health":26000,
+  "speed": 1.5,
+  "engineOffset": 8,
+  "weapons": [
+    {
+      "x": 0,
+      "y": 0,
+      "rotate": false,
+      "mirror": false,
+      "shootSound": "shootBig",
+      "ejectEffect": "casing2",
+      "shoot": {
+        "shots": 3,
+        "shotDelay": 3
+      },
+      "reload": 31,
+      "bullet": {
+        "type": "BasicBulletType",
+        "width": 10,
+        "height": 13,
+        "shootEffect": "shootBig",
+        "smokeEffect": "shootBigSmoke",
+        "damage":50,
+        "speed": 4,
+        "lifetime": 24
+      } 
+    }
+  ],
+  "hitSize":5,
+   "research": {
+    "parent": "远古双管之神",
+    "requirements": ["copper/3900","lead/4300"]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "远古撕裂之神",
+  "type": "flying",
+  "description":"上古时期的撕裂神!",
+  "details":"撕裂:我远渡重洋只为从埃里克尔来到赛普罗!",
+  "flying": true,
+  "speed": 3,
+  "health": 24500,
+  "weapons": [
+    {
+      "x": 0,
+      "y": 0,
+      "reload": 10,
+      "rotate": false,
+      "mirror": false,
+      "bullet": {
+        "type": "BasicBulletType",
+        "speed": 8,
+        "damage": 80,
+        "width": 13,
+        "height": 19,
+        "hitSize": 7,
+        "pierce": true,
+        "hitColor": "768a9a",
+        "backColor": "768a9a",
+        "trailColor": "768a9a",
+        "frontColor": "ffffff",
+        "trailWidth": 2.2,
+        "trailLength": 11,
+        "pierceBuilding":true,
+		"pierceCap":5
+      }
+    }
+  ],
+  "hitSize":5,
+  "research":{
+      "parent":"远古幽灵之神",
+      "requirements":["copper/2000","lead/2500"]
+  }
+}

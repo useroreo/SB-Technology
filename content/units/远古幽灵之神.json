@@ -1,0 +1,35 @@
+{
+  "type": "flying",
+  "localizedName": "远古幽灵之神",
+  "description":"上古时期的幽灵神",
+  "details":"这不对啊,幽灵射击不是这样的啊?",
+  "flying": true,
+  "speed": 4,
+  "health": 30000,
+  "weapons": [
+    {
+      "x": 6,
+      "y": 0,
+      "mirror": true,
+      "rotate": false,
+      "reload":6,
+      "shootSound": "shootBig",
+      "inaccuracy": 0,
+      "bullet": {
+        "damage":100,
+        "speed": 8,
+        "type": "BasicBulletType",
+        "width": 8,
+        "height": 12,
+        "knockback": 0.7,
+        "pierceBuilding":false,
+		"pierceCap":3
+      }
+    }
+  ],
+  "hitSize":5,
+  "research":{
+      "parent":"远古蜂巢之神",
+      "requirements":["copper/4500","lead/5200"]
+  }
+}
