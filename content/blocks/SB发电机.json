@@ -1,0 +1,24 @@
+{
+	"type": "ConsumeGenerator",
+	"name": "SB发电机",
+	"description":"燃烧大量铜来发电!",
+	"details":"铜:哇咔咔,燃起来了!",
+	"size": 2,
+	"health": 1000,
+	"hasItems": true,
+	"canOverdrive": true,
+	"powerProduction": 50,
+	"itemCapacity": 5000,
+	"itemDuration":0.5,
+	"consumes": {
+		"items":{
+		    "items":["copper/1"]
+		}
+	},
+	"requirements": ["copper/800"],
+	"category": "power",
+	"research":{
+	    "parent":"巨型节点",
+	    "requirements":["copper/75000","lead/12000"]
+	}
+}
