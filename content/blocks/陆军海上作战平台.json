@@ -1,0 +1,19 @@
+{
+    "type": "Wall",
+    "name": "陆军海上作战平台",
+    "description": "供陆军在海上战斗,本建筑可以放置于水上",
+    "details": "不就是个墙么",
+    "health": 10000,
+    "size": 12,
+    "alwaysReplace": false,
+    "solid": false,
+    "baseExplosiveness": 10,
+    "breakSound": "boom",
+    "requirements":["copper/1800","lead/2500"],
+    "category": "defense",
+    "placeableLiquid": true,
+    "research":{
+        "parent": "naval-factory",
+        "requirements": ["copper/48000","lead/39090"]
+    }
+}

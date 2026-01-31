@@ -1,0 +1,19 @@
+{
+    "type": "PowerNode",
+    "name": "巨型节点",
+    "description": "大型节点!提升范围与连接数!",
+    "details": "好吧不过是个3X3的节点罢了",
+    "size": 3,
+    "health": 580,
+    "maxNodes": 50,
+    "laserRange": 40,
+    "outputsPower": true,
+    "requirements": [
+        "copper/800"
+    ],
+    "category": "power",
+    "research":{
+        "parent": "power-node-large",
+        "requirements": ["copper/7900","lead/5900"]
+    }
+}

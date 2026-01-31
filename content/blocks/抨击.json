@@ -1,0 +1,69 @@
+{
+	"type":"ItemTurret",
+	"category":"turret",
+	"name":"抨击",
+	"description":"巨大的蓝色发射器以及细小的炮管,\n从巨大的反差中你马上就能感受到其\n[red]极为惊人的击退能力以及伤害\n[white]使用了与动荡一样顶级的冷却系统,\n使得抨击拥有极高的射速与爆发力,\n美中不足的是,[red]射程非常近!!!",
+	"details":"适合前期没有超速器的时候使用,\n添加冷却液后[red]大量提升射速!\n[gray]建议摆放位置是防线墙的后面马上放,\n[red]能够将敌人从防线中打出去,\n同时能够给敌人一段静止的时间!\n击中己方建筑后能瞬间回满血!",
+	"size":2 ,
+	"health":2300,
+	"reload":15,
+	"inaccuracy":1.5,
+	"ammoPerShot":1,
+	"rotatespeed":20,
+	"maxAmmo":100,
+	"targetAir":true,
+	"targetGround":true,
+	"canOverdrive":true,
+	"range":80,
+	"shake":0.3,
+	"shootSound":"shotgun",
+	"recoil":7.5,
+	"recoilTime":15,
+	"minWarmup":0.1,
+	"consumes":{
+		"power":1200,
+		"coolant":{
+			"amount":0.2,
+			"optional":true
+		}
+	},
+	"coolantMultiplier":9,
+	"ammoTypes":{
+		"copper":{
+			"speed":5,
+			"damage":400,
+			"lifetime":16,
+			"reloadMultiplier":1,
+			"ammoMultiplier":2,
+			"width":40,
+			"height":40,
+			"splashDamageRadius":12,
+			"splashDamage":20,
+			"backColor":"FFFFFF",
+			"frontColor":"FFFFFF",
+			"knockback":500,
+			"collidesTeam":true,
+			"collidesAir":true,
+			"collidesGround":true,
+			"collides":true,
+			"collidesTerrain":true,
+			"hittable":true,
+			"reflectable":true,
+			"trailColor":"FFF200",
+			"trailLength":20,
+			"trailWidth":2,
+			"buildingDamageMultiplier":0.5,
+			"hitShake":15,
+			"shrinkX":0.4,
+			"shrinkY":0.4,
+			"healPercent":100,
+			"status":"unmoving",
+			"statusDuration":600
+		}
+	},
+	"research":{
+		"parent": "动荡",
+		"requirements": ["copper/60000","lead/86000"]
+	},
+	"requirements": ["copper/10000","lead/13000"]
+}

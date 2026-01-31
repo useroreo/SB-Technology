@@ -1,0 +1,32 @@
+{
+    "type": "Drill",
+    "name": "掘地三尺",
+    "description": "以掘地三尺的速度挖矿!而且体积也很小哦!就是耗电有点大...... ",
+    "details": "SB牌钻头:我肏你妈傻逼给我闭嘴",
+    "size": 2,
+    "health": 1000,
+    "itemCapacity": 10000,
+    "liquidCapacity": 35,
+    "tier": 10,
+    "drillTime": 0.1,
+    "rotateSpeed": 16,
+    "drawMineltem": true,
+    "liquidBoostIntensity": 20,
+    "consumes": {
+        "power": 80,
+        "liquid": {
+            "liquid": "water",
+            "amount":5,
+            "optional": true,
+            "booster": true
+        }
+    },
+    "requirements": [
+        "lead/2300"
+    ],
+    "category": "production",
+    "research":{
+        "parent": "SB牌钻头",
+        "requirements": ["copper/30000","lead/25000"]
+    }
+}

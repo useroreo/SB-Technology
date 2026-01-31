@@ -1,0 +1,25 @@
+{
+    "type": "Wall",
+    "category": "defense",
+    "name": "强化铅墙",
+    "description": "铅墙,非常重,血很多哟!",
+    "details": "嘿,我们把它放在敌人家里怎么样?让敌人尝尝电疗的味道!",
+    "health": 20000,
+    "size": 2,
+    "alwaysReplace": true,
+    "solid": true,
+    "baseExplosiveness":0,
+    "breakSound": "boom",
+    "requirements":["lead/1000"],
+   	"research":{
+        "parent": "surge-wall-large",
+        "requirements": ["copper/90000","lead/12000"]
+    },
+    "absorbLasers":true,
+    "deflect":true,
+    "chanceDeflect":1,
+    "lightningChance":1,
+    "lightningDamage":50,
+    "lightningLength":32,
+    "lightning":5
+}

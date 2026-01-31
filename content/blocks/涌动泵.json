@@ -1,0 +1,32 @@
+{
+	"type": "Pump",
+	"name": "涌动泵",
+	"description":"超快的泵送速度!",
+	"details":"还能够放在水上!",
+	"size": 2,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+        	"DrawPumpLiquid",
+        	"DrawDefault"
+	    ]
+	},
+	"placeableLiquid":true,
+	"squareSprite": false,
+	"health": 450,
+	"liquidCapacity": 3520,
+	"hasLiquids": true,
+	"pumpAmount": 5.1,
+	"consumes": {
+		"power":32
+	},
+	"requirements": [
+		"copper/1300",
+		"lead/1250"
+	],
+	"category": "liquid",
+	"research":{
+	    "parent":"thermal-pump",
+	    "requirements":["copper/32000","lead/37500"]
+	}
+}

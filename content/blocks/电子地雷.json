@@ -1,0 +1,33 @@
+{
+    "type":"PowerTurret",
+    "category":"effect",
+    "name":"电子地雷",
+    "description":"敌人经过上方的时候痛击它的**!会阻挡电力节点自动连接!",
+    "details":"空军打不中哦!",
+    "size":1,
+    "health":3200,
+    "armor":5,
+    "insulated":true,
+    "reload":1,
+   	"targetAir":false,
+    "targetGround":true,
+    "canOverdrive":true,
+    "solid":false,
+    "range":12,
+    "shootType":{
+        "speed":0,
+        "damage":30,
+        "lifetime":1,
+        "width":1,
+        "height":1,
+        "splashDamageRadius":16,
+	    "splashDamage":1,
+	    "collidesAir":true,
+	    "collidesGround":true
+    },
+    "research":{
+    "parent": "shock-mine",
+	  	"requirements":["copper/2000","lead/3000"]
+    },
+    "requirements": ["copper/300","lead/500"]
+}

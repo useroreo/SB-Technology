@@ -1,0 +1,67 @@
+{
+	"type":"ItemTurret",
+	"category":"turret",
+	"name":"动荡",
+	"description":"冲击的改进版本,射速快伤害高!",
+	"details":"哇动荡真好用,比冲击强太多了",
+	"size":2 ,
+	"health":7600,
+	"reload":45,
+	"inaccuracy":0,
+	"ammoPerShot":2,
+	"rotatespeed":20,
+	"maxAmmo":180,
+	"targetAir":true,
+	"targetGround":true,
+	"canOverdrive":true,
+	"range":220,
+	"shake":2,
+	"shootSound":"shotgun",
+	"recoil":7.5,
+	"recoilTime":15,
+	"minWarmup":0.1,
+	"consumes":{
+		"power":700,
+		"coolant":{
+			"amount":1,
+			"optional":true
+		}
+	},
+	"coolantMultiplier":1,
+	"ammoTypes":{
+		"copper":{
+			"speed":6.5,
+			"damage":80,
+			"lifetime":33.84,
+			"reloadMultiplier":6,
+			"ammoMultiplier":1,
+			"width":40,
+			"height":40,
+			"splashDamageRadius":80,
+			"splashDamage":80,
+			"backColor":"ab00FF",
+			"frontColor":"4a006F",
+			"knockback":1,
+			"collidesTeam":false,
+			"collidesAir":true,
+			"collidesGround":true,
+			"collides":true,
+			"collidesTerrain":true,
+			"hittable":true,
+			"reflectable":true,
+			"trailColor":"FFF200",
+			"trailLength":10,
+			"trailWidth":5,
+			"buildingDamageMultiplier":6,
+			"hitShake":15,
+			"shrinkX":0.4,
+			"shrinkY":0.4,
+			"healPercent":0
+		}
+	},
+	"research":{
+		"parent": "冲击",
+		"requirements": ["copper/60000","lead/86000"]
+	},
+	"requirements": ["copper/22000","lead/26000"]
+}

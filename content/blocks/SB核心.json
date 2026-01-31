@@ -1,0 +1,21 @@
+{
+    "type":"CoreBlock",
+    "name":"SB核心",
+    "description":"SB核心,拥有极度优良的装甲以及容量,适合星际旅行!",
+    "armor":1000,
+    "details":"这个核心机绝了!",
+    "requirements":["copper/280000","lead/300000"],
+    "isFirstTier":false,
+    "size":10,
+    "squareSprite":true,
+    "alwaysUnlocked": false,
+    "unitType":"SB",
+    "health": 500000,
+    "itemCapacity": 8000000,
+    "unitCapModifier":50,
+    "category":"effect",
+    "research":{
+        "parent":"core-nucleus",
+        "requirements":["copper/9000000","lead/8000000"]
+  }
+}

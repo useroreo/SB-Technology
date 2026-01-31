@@ -1,0 +1,29 @@
+{
+	"name": "区块超速器",
+	"description": "消耗大量铜为整个区块提供超速效果",
+	"details":"达成成就:还要超速穹顶干什么?",
+	"type":"OverdriveProjector",
+	"health": 500,
+	"size": 1,
+	"phaseRangeBoost":1,
+	"speedBoostPhase":4,
+	"range":5600,
+	"speedBoost": 1.1,
+	"hasBoost": true,
+	"useTime": 1,
+	"itemCapacity":5000,
+	"consumes": {
+		"power": 500,
+		"items":{
+			"items":["copper/100"],
+			"booster":true,
+			"optional":true
+		}
+	},
+	"requirements": ["silicon/10000","copper/40000","lead/50000","surge-alloy/12000","graphite/10000"],
+	"category": "effect",
+	"research":{
+		"parent":"overdrive-projector",
+		"requirements":["silicon/1000000","copper/4000000","lead/5000000","surge-alloy/1200000","graphite/1000000"]
+	}
+}

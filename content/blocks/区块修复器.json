@@ -1,0 +1,30 @@
+{
+	"type": "MendProjector",
+	"name": "区块修复投影器",
+	"description":"消耗大量铜为整个区块提供修复",
+	"details":"达成成就:还要修复投影干什么?",
+	"health":500,
+	"size": 1,
+	"range": 5600,
+	"reload":120,
+	"healPercent":0.01,
+	"phaseBoost":10,
+	"phaseRangeBoost": 1,
+	"canOverdrive": true,
+	"useTime":0.1,
+	"itemCapacity":5000,
+	"consumes": {
+		"power": 500,
+		"items":{
+			"items":["copper/1"],
+			"booster":true,
+			"optional":true
+		}
+	},
+	"requirements": ["silicon/1000","copper/4000","lead/5000","surge-alloy/1200","graphite/1000"],
+	"category": "effect",
+	"research":{
+		"parent":"mender",
+		"requirements":["silicon/1000000","copper/4000000","lead/5000000","surge-alloy/1200000","graphite/1000000"]
+	}
+}

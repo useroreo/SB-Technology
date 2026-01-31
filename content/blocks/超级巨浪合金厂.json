@@ -1,0 +1,41 @@
+{
+    "type": "GenericCrafter",
+    "name": "超级巨浪合金厂",
+    "description": "巨浪合金厂",
+    "details": "炼金术师!",
+    "itemCapacity": 120,
+    "liquidCapacity":1500,
+    "health": 1700,
+    "size": 3,
+    "hasPower": true,
+    "hasItems": true,
+    "craftTime": 30,
+    "canOverdrive":true,
+    "updateEffect": "none",
+    "consumes": {
+        "power": 80,
+        "items": [
+            "copper/3",
+            "lead/3"
+        ],
+        "liquids": [
+            {
+                "liquid": "water",
+                "amount": 10
+            }
+        ]
+    },
+    "outputItem": {
+        "item": "surge-alloy",
+        "amount": 3
+    },
+    "requirements": [
+        "copper/9700",
+        "lead/7000"
+    ],
+    "category": "crafting",
+    "research":{
+        "parent": "surge-smelter",
+        "requirements": ["copper/28000","lead/38000"]
+    }
+}

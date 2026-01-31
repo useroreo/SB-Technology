@@ -1,0 +1,18 @@
+{
+    "type": "Wall",
+    "name": "爆炸混合物墙",
+    "description": "用爆炸混合物制成的墙\n这是最终手段,能够炸死大量敌人",
+    "details": "哎... 不是这怎么连环爆炸了? ",
+    "health": 3000,
+    "size": 8,
+    "alwaysReplace": true,
+    "solid": true,
+    "baseExplosiveness": 170000,
+    "breakSound": "boom",
+    "requirements": ["blast-compound/8000"],
+    "category": "defense",
+    "research":{
+	    "parent":"surge-wall-large",
+	    "requirements":["blast-compound/160000"]
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"type": "Conduit",
+	"name": "巨压管道",
+	"description":"利用巨大的液压来传输液体",
+	"details":"还能够放在水上哦!",
+	"placeableLiquid":true,
+	"health": 110,
+	"liquidCapacity":100,
+	"liquidPressure": 5000,
+	"requirements": [
+		"lead/500"
+	],
+	"category": "liquid",
+	"research":{
+	    "parent":"pulse-conduit",
+    	"requirements":["copper/22000","lead/35000"]
+    }
+}

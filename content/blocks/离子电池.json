@@ -1,0 +1,20 @@
+{
+    "type": "battery",
+    "name": "离子电池",
+    "description": "强大的电池,但是与此同时,电池在损毁时爆炸也很壮观!",
+    "details": "这是电疗机吧,什么电池",
+    "size": 1,
+    "health": 700,
+    "requirements": [
+        "copper/5500",
+        "lead/7000"
+    ],
+    "consumes": {
+        "powerBuffered": 10000
+    },
+    "category": "power",
+    "research":{
+        "parent": "battery",
+        "requirements": ["copper/39000","lead/40200"]
+    }
+}

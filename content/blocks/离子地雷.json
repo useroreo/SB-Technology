@@ -1,0 +1,33 @@
+{
+    "type":"PowerTurret",
+    "category":"effect",
+    "name":"离子地雷",
+    "description":"电子地雷升级版!会阻挡电力节点自动连接!",
+    "details":"空军也打得中哦!",
+    "size":1,
+    "insulated":true,
+    "health":6400,
+    "armor":10,
+    "reload":1,
+   	"targetAir":true,
+    "targetGround":true,
+    "canOverdrive":true,
+    "solid":false,
+    "range":28,
+    "shootType":{
+        "speed":0,
+        "damage":100,
+        "lifetime":1,
+        "width":1,
+        "height":1,
+        "splashDamageRadius":32,
+	    "splashDamage":25,
+	    "collidesAir":true,
+	    "collidesGround":true
+    },
+    "research":{
+    "parent": "电子地雷",
+	  	"requirements":["copper/20000","lead/30000"]
+    },
+    "requirements": ["copper/3000","lead/5000"]
+}

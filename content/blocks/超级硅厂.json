@@ -1,0 +1,41 @@
+{
+    "type": "GenericCrafter",
+    "name": "超级硅厂",
+    "description": "用铜和铅制成硅!",
+    "details": "请叫我炼硅术士!",
+    "itemCapacity": 50,
+    "liquidCapacity": 1500,
+    "health": 450,
+    "size": 3,
+    "hasPower": true,
+    "hasLiquids": false,
+    "hasItems": true,
+    "craftTime": 20,
+    "updateEffect": "none",
+    "consumes": {
+        "power": 25,
+        "items": [
+            "copper/5",
+            "lead/5"
+        ],
+        "liquids": [
+            {
+                "liquid": "water",
+                "amount": 10
+            }
+        ]
+    },
+    "outputItem": {
+        "item": "silicon",
+        "amount": 5
+    },
+    "requirements": [
+        "copper/4000",
+        "lead/7000"
+    ],
+    "category": "crafting",
+    "research":{
+        "parent":"silicon-crucible",
+        "requirements":["copper/15000","lead/80000"]
+    }
+}

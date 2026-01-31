@@ -1,0 +1,67 @@
+{
+	"type":"ItemTurret",
+	"category":"turret",
+	"name":"穿刺",
+	"description":"SB科技中[red]最顶级的科技\n[white]拥有[red]极强的穿透能力,\n[white]能够给打中的敌人[red]缴械效果,\n是最终极的武器",
+	"details":"射程远,伤害较高,射速不及动荡,所以建议加上冷却液与超速,建议放在防线最后方,穿透大量敌人,并且瘫痪敌人的武器",
+	"size":2 ,
+	"health":8000,
+	"reload":90,
+	"inaccuracy":0,
+	"ammoPerShot":5,
+	"rotatespeed":20,
+	"maxAmmo":180,
+	"targetAir":true,
+	"targetGround":true,
+	"canOverdrive":true,
+	"range":280,
+	"shake":1,
+	"shootSound":"shotgun",
+	"recoil":2,
+	"consumes":{
+		"power":900,
+		"coolant":{
+			"amount":0.1,
+			"optional":true
+		}
+	},
+	"coolantMultiplier":3,
+	"ammoTypes":{
+		"copper":{
+			"speed":8,
+			"damage":100,
+			"lifetime":35,
+			"reloadMultiplier":6,
+			"ammoMultiplier":1,
+			"width":15,
+			"height":45,
+			"backColor":"005858",
+			"frontColor":"00bbFF",
+			"knockback":2,
+			"collidesTeam":false,
+			"collidesAir":true,
+			"collidesGround":true,
+			"collides":true,
+			"collidesTerrain":true,
+			"hittable":true,
+			"reflectable":true,
+			"trailColor":"24367d",
+			"trailLength":35,
+			"trailWidth":5,
+			"buildingDamageMultiplier":3,
+			"hitShake":1,
+			"healPercent":0,
+			"pierceBuilding":true,
+			"pierceCap":12,
+			"status":"disarmed",
+			"statusDuration":600,
+			"splashDamageRadius":32,
+			"splashDamage":100
+		}
+	},
+	"research":{
+		"parent": "动荡",
+		"requirements": ["copper/200000","lead/280000"]
+	},
+	"requirements": ["copper/26000","lead/29000"]
+}

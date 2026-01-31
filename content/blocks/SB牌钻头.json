@@ -1,0 +1,32 @@
+{
+    "type": "Drill",
+    "name": "SB牌钻头",
+    "description": "利用了强化铅墙做钻头",
+    "details": "强化铅墙:#$&#&$@+/_-(污言秽语)",
+    "size": 2,
+    "health": 650,
+    "itemCapacity": 7000,
+    "liquidCapacity": 1500,
+    "tier": 6,
+    "drillTime": 1,
+    "rotateSpeed": 8,
+    "drawMineltem": true,
+    "liquidBoostIntensity":10,
+    "consumes": {
+        "power": 20,
+        "liquid": {
+            "liquid": "water",
+            "amount": 2,
+            "optional": true,
+            "booster": true
+        }
+    },
+    "requirements": [
+        "copper/1200"
+    ],
+    "category": "production",
+    "research":{
+        "parent": "blast-drill",
+        "requirements": ["copper/1190","lead/1270"]
+    }
+}

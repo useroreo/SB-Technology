@@ -1,0 +1,47 @@
+{
+    "type": "unitFactory",
+    "name": "SB远古科技工厂",
+    "description":"制造上古时期炮台的神明为你而战!",
+    "details":"看看,多细致,用的还是老版本贴图!",
+    "size": 5,
+    "health":2800,
+    "plans": [
+        {
+            "unit": "远古双管之神",
+            "requirements": ["copper/10000","lead/10000"],
+            "time": 1200
+        },
+        {
+            "unit":"远古齐射之神",
+            "requirements":["copper/13000","lead/13000"],
+            "time":1800
+        },
+        {
+            "unit":"远古蜂巢之神",
+            "requirements":["copper/18000","lead/18000"],
+            "time":2350
+        },
+        {
+            "unit":"远古幽灵之神",
+            "requirements":["copper/23000","lead/23000"],
+            "time":2800
+        },
+        {
+            "unit":"远古撕裂之神",
+            "requirements":["copper/20000","lead/20000"],
+            "time":1600
+        },
+        {
+            "unit":"SB",
+            "requirements":["copper/2500","lead/2500"],
+            "time":800
+
+        }
+    ],
+  "requirements": ["copper/70000","lead/70000"],
+  "category": "units",
+  "research": {
+      "parent":"SB核心",
+      "requirements":["copper/300000","lead/300000"]
+    }
+}
