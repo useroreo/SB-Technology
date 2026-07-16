@@ -1,0 +1,42 @@
+{
+    "type": "GenericCrafter",
+    "name": "超级冷冻液厂",
+    "description":"不再将钛磨成细粉来提升效率",
+    "details":"100%输出!",
+    "itemCapacity":600,
+    "liquidCapacity":36000,
+    "health": 500,
+    "size": 3,
+    "hasPower": true,
+    "hasItems": true,
+    "craftTime":1,
+    "rotate":false,
+    "outputsLiquid":true,
+    "craftEffect":"pulverizeMedium",
+    "consumes": {
+        "power": 50,
+        "items": [
+            "titanium/1"
+        ],
+        "liquids": [
+            {
+                "liquid":"water",
+                "amount":1
+            }
+        ]
+    },
+    "outputLiquid": {
+        "liquid":"cryofluid",
+        "amount":1
+    },
+    "requirements": [
+        "强化铜/630",
+        "强化铅/780",
+        "阴阳合金/200"
+    ],
+    "category": "crafting",
+    "research":{
+        "parent":"cryofluid-mixer",
+        "requirements":["强化铜/8200","强化铅/8300","阴阳合金/1300"]
+    }
+}

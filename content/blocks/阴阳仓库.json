@@ -1,0 +1,16 @@
+{
+    "type":"StorageBlock",
+    "name":"阴阳仓库",
+    "description":"构建等离子厂来以极高密度储存物质",
+    "details":"还能够提供额外的单位上限!",
+    "requirements":["阴阳合金/100"],
+    "size":4,
+    "health": 2000,
+    "itemCapacity": 100000000000,
+    "unitCapModifier":2,
+    "category":"effect",
+    "research":{
+        "parent":"vault",
+        "requirements":["阴阳合金/4500"]
+  }
+}

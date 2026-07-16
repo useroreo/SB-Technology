@@ -1,0 +1,29 @@
+{
+    "type": "ShieldWall",
+    "category": "defense",
+    "name": "阴阳合金墙",
+    "description": "阴阳合金墙,高韧性,高硬度,抗辐射,强电性",
+    "details": "不需要电就能产生盾",
+    "health": 2000000,
+    "armor":30,
+    "size": 2,
+    "alwaysReplace": true,
+    "solid": true,
+    "shieldHealth":600000,
+    "baseExplosiveness":1,
+    "breakSound": "boom",
+    "requirements":["阴阳合金/10"],
+   	"research":{
+        "parent":["强化铜墙","强化铅墙"],
+        "requirements": ["阴阳合金/50"]
+    },
+    "conductivePower":true,
+    "consumePower":1,
+    "absorbLasers":true,
+    "deflect":true,
+    "chanceDeflect":1,
+    "lightningChance":1,
+    "lightningDamage":50,
+    "lightningLength":32,
+    "lightning":5
+}

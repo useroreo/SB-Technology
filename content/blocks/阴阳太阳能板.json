@@ -1,0 +1,16 @@
+{
+	"type": "SolarGenerator",
+	"name": "阴阳太阳能板",
+	"description":"让光子击打阴阳合金来发电!",
+	"details":"暴力而简单的发电组件",
+	"size":2,
+	"health": 800,
+	"canOverdrive": true,
+	"powerProduction":15,
+	"requirements": ["阴阳合金/5"],
+	"category": "power",
+	"research":{
+	    "parent":"solar-panel-large",
+	    "requirements":["阴阳合金/450"]
+	}
+}

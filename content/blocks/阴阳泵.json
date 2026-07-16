@@ -1,0 +1,31 @@
+{
+	"type": "Pump",
+	"name": "阴阳泵",
+	"description":"超快的泵送速度!",
+	"details":"还能够放在水上!",
+	"size": 2,
+	"drawer": {
+		"type": "DrawMulti",
+		"drawers": [
+        	"DrawPumpLiquid",
+        	"DrawDefault"
+	    ]
+	},
+	"placeableLiquid":true,
+	"squareSprite": false,
+	"health": 1450,
+	"liquidCapacity": 8520,
+	"hasLiquids": true,
+	"pumpAmount":16.67,
+	"consumes": {
+		"power":60
+	},
+	"requirements": [
+		"阴阳合金/150"
+	],
+	"category": "liquid",
+	"research":{
+	    "parent":"impulse-pump",
+	    "requirements":["阴阳合金/3500"]
+	}
+}

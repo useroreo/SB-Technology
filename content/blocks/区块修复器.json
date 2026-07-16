@@ -1,0 +1,30 @@
+{
+	"type": "MendProjector",
+	"name": "区块修复投影器",
+	"description":"消耗阴阳合金为整个区块提供修复",
+	"details":"达成成就:还要修复投影干什么?",
+	"health":500,
+	"size": 1,
+	"range": 5600,
+	"reload":120,
+	"healPercent":0.05,
+	"phaseBoost":2,
+	"phaseRangeBoost": 1,
+	"canOverdrive": true,
+	"useTime":30,
+	"itemCapacity":50,
+	"consumes": {
+		"power": 30,
+		"items":{
+			"items":["阴阳合金/5"],
+			"booster":true,
+			"optional":true
+		}
+	},
+	"requirements": ["强化铅/110","强化铜/100","阴阳合金/50"],
+	"category": "effect",
+	"research":{
+		"parent":"mend-projector",
+		"requirements":["强化铅/1100","强化铜/1000","阴阳合金/500"]
+	}
+}

@@ -1,0 +1,21 @@
+{
+    "type": "Wall",
+    "category": "defense",
+    "name": "强化铜墙",
+    "description": "强化铜墙,具有高韧性",
+    "details": "能反弹子弹!",
+    "health": 80000,
+    "armor":10,
+    "size": 2,
+    "alwaysReplace": true,
+    "solid": true,
+    "baseExplosiveness":1,
+    "breakSound": "boom",
+    "requirements":["强化铜/10"],
+   	"research":{
+        "parent": "copper-wall-large",
+        "requirements": ["强化铜/50"]
+    },
+    "deflect":true,
+    "chanceDeflect":0.3
+}

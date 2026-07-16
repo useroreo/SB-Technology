@@ -1,0 +1,40 @@
+{
+    "type": "GenericCrafter",
+    "name": "强化铜工厂",
+    "description": "用大量铜制成强化铜",
+    "details": "超级铜矿",
+    "itemCapacity": 120,
+    "liquidCapacity":30,
+    "health": 500,
+    "size": 3,
+    "hasPower": true,
+    "hasItems": true,
+    "craftTime": 1,
+    "ambientSound":"loopMachineSpin",
+    "craftEffect":"pulverizeMedium",
+    "consumes": {
+        "power": 3,
+        "items": [
+            "copper/30"
+        ],
+        "liquids": [
+            {
+                "liquid": "water",
+                "amount": 4
+            }
+        ]
+    },
+    "outputItem": {
+        "item": "强化铜",
+        "amount": 10
+    },
+    "requirements": [
+        "copper/990",
+        "lead/1000"
+    ],
+    "category": "crafting",
+    "research":{
+        "parent":"copper",
+        "requirements":["copper/4400","lead/4800"]
+    }
+}

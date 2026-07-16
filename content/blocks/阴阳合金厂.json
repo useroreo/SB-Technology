@@ -1,0 +1,41 @@
+{
+    "type": "GenericCrafter",
+    "name": "阴阳合金厂",
+    "description": "将强化铜和强化铅熔炼并强化制得阴阳合金",
+    "details": "铜铅合金!",
+    "itemCapacity": 120,
+    "liquidCapacity":30,
+    "health": 500,
+    "size": 3,
+    "hasPower": true,
+    "hasItems": true,
+    "craftTime": 1,
+    "ambientSound":"loopMachineSpin",
+    "craftEffect":"pulverizeMedium",
+    "consumes": {
+        "power": 3,
+        "items": [
+            "强化铜/25",
+            "强化铅/25"
+        ],
+        "liquids": [
+            {
+                "liquid": "water",
+                "amount": 4
+            }
+        ]
+    },
+    "outputItem": {
+        "item": "阴阳合金",
+        "amount": 5
+    },
+    "requirements": [
+        "强化铅/1990",
+        "强化铜/1800"
+    ],
+    "category": "crafting",
+    "research":{
+        "parent":"强化铅工厂",
+        "requirements":["强化铜/13000","强化铅/18000"]
+    }
+}

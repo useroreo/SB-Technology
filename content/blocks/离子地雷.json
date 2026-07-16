@@ -1,0 +1,20 @@
+{
+    "type":"ShockMine",
+    "category":"effect",
+    "name":"离子地雷",
+    "description":"电子地雷升级版!",
+    "details":"空军打不中哦!",
+    "size":1,
+    "health":1520,
+    "armor":5,
+    "hasShadow":false,
+    "damage":50,
+    "tileDamage":50,
+    "length":16,
+    "tendrils":8,
+    "research":{
+    "parent": "shock-mine",
+	  	"requirements":["阴阳合金/25"]
+    },
+    "requirements": ["阴阳合金/2"]
+}

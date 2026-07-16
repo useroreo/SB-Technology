@@ -1,0 +1,16 @@
+{
+    "type": "Unloader",
+    "name": "阴阳卸载器",
+    "size":1,
+    "description":"提升了装卸速度",
+    "details":"依旧空选效率最高",
+    "health":50,
+    "requirements": ["阴阳合金/2","强化铅/10"],
+    "speed":0,
+    "placeableLiquid":true,
+    "category": "distribution",
+    "research":{
+        "parent": "unloader",
+        "requirements": ["强化铜/500","强化铅/500","阴阳合金/500"]
+    }
+}

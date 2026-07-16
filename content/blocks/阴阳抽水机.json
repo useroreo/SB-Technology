@@ -1,0 +1,24 @@
+{
+    "type": "SolidPump",
+    "name": "阴阳抽水机",
+    "description": "用阴阳合金放电,把下方的物质瞬间等离子化,再转为液态",
+    "details": "陆上水泵!",
+    "size":2,
+    "health": 1000,
+    "hasPower":false,
+    "liquidCapacity":1000,
+    "drillTime":1,
+    "rotateSpeed":2,
+    "liquidBoostIntensity":10,
+    "pumpAmount":3,
+    "consumePower":20,
+    "attribute":"water",
+    "requirements": [
+        "阴阳合金/80"
+    ],
+    "category": "production",
+    "research":{
+        "parent": "water-extractor",
+        "requirements": ["阴阳合金/1000"]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "type":"TractorBeamTurret",
+    "category":"turret",
+    "name":"阴阳光束",
+    "description":"可以给单个敌人添加恐惧效果\n我们再次缩又优化了结构,使用阴阳合金自发电来发出光束",
+    "details":"单点伤害也很高",
+    "size":3,
+    "health":2000,
+    "rotateSpeed":10,
+    "inaccuracy":10,
+   	"targetAir":true,
+    "targetGround":true,
+    "canOverdrive":true,
+    "collidesTerrain":true,
+    "force":0,
+    "damage":50,
+    "armorMultiplier":0,
+    "status":"恐惧",
+    "range":240,
+    "statusDuration":1,
+    "color":"2050ff",
+    "research":{
+    "parent": "parallax",
+	  	"requirements":["强化铜/400","强化铅/500","阴阳合金/200"]
+    },
+    "requirements": ["强化铜/25","强化铅/25","阴阳合金/10"]
+}

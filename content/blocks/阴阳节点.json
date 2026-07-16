@@ -1,0 +1,18 @@
+{
+    "type": "PowerNode",
+    "name": "阴阳节点",
+    "description": "结合了大型节点和巨浪电力塔的优点并改良制得",
+    "details": "远距离传输电力也用它",
+    "size": 3,
+    "health": 580,
+    "maxNodes": 80,
+    "laserRange": 45,
+    "requirements": [
+        "阴阳合金/25"
+    ],
+    "category": "power",
+    "research":{
+        "parent": "surge-tower",
+        "requirements": ["强化铜/900","强化铅/1380","阴阳合金/500"]
+    }
+}

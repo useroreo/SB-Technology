@@ -1,0 +1,27 @@
+{
+    "type": "RepairTower",
+    "name": "单位修复塔",
+    "description": "群体修复单位",
+    "details": "几秒回满",
+    "health": 800,
+    "size":3,
+    "range":80,
+    "healAmount":100,
+    "hasPower":true,
+    "consumePower":10,
+    "requirements": ["强化铜/100"],
+    "abilities": [
+        {
+            "type":"ShieldRegenFieldAbility",
+            "reload":5,
+            "range": 10,
+            "amount":100,
+            "max": 10000
+        }
+    ],
+    "category": "units",
+    "research":{
+	    "parent":"repair-turret",
+	    "requirements":["强化铜/3600"]
+	}
+}

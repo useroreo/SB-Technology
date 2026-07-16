@@ -1,0 +1,20 @@
+{
+    "type": "ItemBridge",
+    "name": "阴阳传送带桥",
+    "size":1,
+    "description":"增加连接距离和传输速度!",
+    "details":"不需要电就是比布桥好",
+    "health":200,
+    "requirements": ["阴阳合金/18"],
+    "range":30,
+    "transportTime":0.00001,
+    "itemCapacity":1000,
+    "arrowPeriod":128,
+    "arrowTimeScl":0.1,
+    "placeableLiquid":true,
+    "category": "distribution",
+    "research":{
+        "parent": "phase-conveyor",
+        "requirements": ["阴阳合金/500"]
+    }
+}

@@ -1,0 +1,16 @@
+{
+	"name": "阴阳处理器",
+	"description": "用阴阳合金提升运算速度,同时优化结构减小了体积",
+	"details":"距离世处差不了多少了",
+	"type":"LogicBlock",
+	"health": 1200,
+	"size":1,
+	"range":480,
+	"requirements": ["阴阳合金/50","silicon/2890"],
+	"category": "logic",
+    "instructionsPerTick":500,
+	"research":{
+		"parent":"hyper-processor",
+		"requirements":["阴阳合金/800","silicon/45400"]
+	}
+}

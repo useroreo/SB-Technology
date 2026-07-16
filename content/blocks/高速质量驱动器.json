@@ -1,0 +1,28 @@
+{
+    "type": "MassDriver",
+    "category":"distribution",
+    "name":"高速质量驱动器",
+    "health":340,
+    "description":"拥有超高速运输能力以及超远距离的质量驱动器!",
+    "details":"就是卸货的速度慢了点?",
+    "size":2,
+    "research": {
+        "parent": "mass-driver",
+        "requirements": ["copper/2000","lead/2200"]
+    },
+    "requirements":["copper/600","lead/640"],
+    "hasItems": true,
+    "itemCapacity":60000,
+    "hasLiquids": false,
+    "rotateSpeed":270,
+    "speed":1000,
+    "hasPower": true,
+    "range": 1600,
+    "minDistribute":1,
+    "reload":1,
+    "consumes": {
+        "power": 60
+    },
+    "bulletSpeed":25,
+    "bulletLifetime":512
+}

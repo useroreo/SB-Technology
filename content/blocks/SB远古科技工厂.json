@@ -1,0 +1,50 @@
+{
+    "type": "unitFactory",
+    "name": "SB远古科技工厂",
+    "description":"制造部分炮台为你而战!",
+    "details":"看看,多细致,用的还是老版本贴图!",
+    "size": 5,
+    "health":2800,
+    "plans": [
+        {
+            "unit": "双管",
+            "requirements": ["copper/350"],
+            "time":17.46
+        },
+        {
+            "unit":"齐射",
+            "requirements":["copper/800","lead/800"],
+            "time":180
+        },
+        {
+            "unit":"蜂巢",
+            "requirements":["强化铜/1400","强化铅/1400"],
+            "time":152.46
+        },
+        {
+            "unit":"幽灵",
+            "requirements":["阴阳合金/3500","强化铅/4800"],
+            "time":502.5
+        },
+        {
+            "unit":"撕裂",
+            "requirements":["copper/500","lead/500"],
+            "time":540
+        },
+        {
+            "unit":"SB",
+            "requirements":["copper/2500","lead/2500"],
+            "time":0
+
+        }
+    ],
+    "requirements": ["copper/17000","lead/17000"],
+    "consumes":{
+        "power":16.7
+    },
+    "category": "units",
+    "research": {
+        "parent":"SB核心",
+        "requirements":["copper/30000","lead/30000"]
+    }
+}

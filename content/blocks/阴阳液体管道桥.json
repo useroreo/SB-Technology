@@ -1,0 +1,19 @@
+{
+    "type": "LiquidBridge",
+    "name": "阴阳液体管道桥",
+    "size":1,
+    "description":"增加连接距离和传输速度!",
+    "details":"不需要电就是比布桥好",
+    "health":200,
+    "requirements": ["阴阳合金/18"],
+    "range":30,
+    "liquidCapacity":1000,
+    "arrowPeriod":128,
+    "arrowTimeScl":0.1,
+    "placeableLiquid":true,
+    "category": "liquid",
+    "research":{
+        "parent": "phase-conduit",
+        "requirements": ["阴阳合金/500"]
+    }
+}

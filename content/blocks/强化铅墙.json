@@ -1,0 +1,19 @@
+{
+    "type": "Wall",
+    "category": "defense",
+    "name": "强化铅墙",
+    "description": "强化铅墙,非常硬,抗辐射",
+    "details": "能够阻挡激光",
+    "health": 100000,
+    "size": 2,
+    "alwaysReplace": true,
+    "solid": true,
+    "baseExplosiveness":1,
+    "breakSound": "boom",
+    "requirements":["强化铅/10"],
+   	"research":{
+        "parent": "强化铜墙",
+        "requirements": ["强化铅/50"]
+    },
+    "absorbLasers":true
+}

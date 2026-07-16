@@ -1,0 +1,28 @@
+{
+	"type": "ConsumeGenerator",
+	"name": "阴阳发电机",
+	"description":"燃烧阴阳合金来发电!",
+	"details":"好好保护你的发电机,别炸了",
+	"size":5,
+	"health": 5000,
+	"hasItems": true,
+	"breakSound": "boom",
+	"canOverdrive": true,
+	"powerProduction":280,
+	"itemCapacity": 50,
+	"itemDuration":60,
+	"ambientSound":"loopPulse",
+	"generateEffect":"generatespark",
+	"baseExplosiveness":10000000000,
+	"consumes": {
+		"items":{
+		    "items":["阴阳合金/1"]
+		}
+	},
+	"requirements": ["阴阳合金/300"],
+	"category": "power",
+	"research":{
+	    "parent":"impact-reactor",
+	    "requirements":["强化铜/7500","强化铅/7200"]
+	}
+}

@@ -1,0 +1,42 @@
+{
+    "type": "GenericCrafter",
+    "name": "超级爆炸混合物混合器",
+    "description": "将铜和铅熔炼,错位分子结构得到爆炸混合物!",
+    "details": "铜和铅的火药!",
+    "itemCapacity": 120,
+    "liquidCapacity":6000,
+    "health": 500,
+    "size": 3,
+    "hasPower": true,
+    "hasItems": true,
+    "craftTime": 1,
+    "ambientSound":"loopMachineSpin",
+    "craftEffect":"pulverizeMedium",
+    "consumes": {
+        "power": 50,
+        "items": [
+            "copper/1",
+            "lead/1"
+        ],
+        "liquids": [
+            {
+                "liquid": "water",
+                "amount": 50
+            }
+        ]
+    },
+    "outputItem": {
+        "item": "blast-compound",
+        "amount": 1
+    },
+    "requirements": [
+        "强化铜/990",
+        "强化铅/1000",
+        "阴阳合金/300"
+    ],
+    "category": "crafting",
+    "research":{
+        "parent":"blast-mixer",
+        "requirements":["强化铜/4400","强化铅/4800","阴阳合金/2300"]
+    }
+}

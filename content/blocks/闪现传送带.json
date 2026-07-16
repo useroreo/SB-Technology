@@ -1,0 +1,23 @@
+{
+    "type": "StackConveyor",
+    "name": "闪现传送带",
+    "size":1,
+    "description":"以几乎闪现的速度打包并传输物品!!\n[red]别信下面的速度,anuke的算法有问题,应该是3050物品/秒",
+    "details":"快到飞起!",
+    "health":100,
+    "requirements": [
+        "强化铜/20",
+        "强化铅/20"
+    ],
+    "speed": 130,
+    "placeableLiquid":true,
+    "insulated": false,
+    "displayFlow": true,
+    "absorbLasers": true,
+    "category": "distribution",
+    "itemCapacity":50,
+    "research":{
+        "parent": "折跃传送带",
+        "requirements": ["强化铜/15000","强化铅/18000"]
+    }
+}

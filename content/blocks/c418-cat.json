@@ -1,0 +1,38 @@
+{
+    "type": "ConsumeGenerator",
+    "name": "c418-cat",
+    "description": "C418-Cat唱片!需要一个合金,但后续不会消耗了",
+    "details": "喵~",
+    "health": 6000,
+    "size":5,
+    "hasPower": true,
+    "hasItems": true,
+    "itemCapacity":1,
+    "ambientSound":"c418-cat",
+    "ambientSoundVolume":100,
+    "powerProduction":600,
+    "itemDuration":155520000,
+    "drawer":{
+        "type":"DrawMulti",
+        "drawers":[
+            {
+                "type":"DrawRegion",
+                "rotateSpeed":-10,
+                "suffix":"-rotator"
+            }
+        ]
+    },
+    "consumes": {
+		"items":{
+		    "items":["阴阳合金/1"]
+		}
+	},
+    "requirements": [
+        "阴阳合金/10"
+    ],
+    "category": "effect",
+    "research":{
+        "parent":"SB核心",
+        "requirements":["阴阳合金/100"]
+    }
+}

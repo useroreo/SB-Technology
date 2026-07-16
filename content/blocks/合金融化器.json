@@ -1,0 +1,34 @@
+{
+    "type": "GenericCrafter",
+    "name": "合金融化器",
+    "description":"我们用尽所有手段,就差把阴阳合金从世界上除名了,\n好不容易把阴阳合金融化了,并且成功保持了工厂阴阳合金外壳的稳定\n用常规手段来融化阴阳合金不可能,那么就模仿阴阳抽水机,先等离子化,再想办法液化,\n不过好像改变了它的性质",
+    "details":"超级冷却液!",
+    "itemCapacity": 100,
+    "liquidCapacity":60,
+    "health": 500,
+    "size": 3,
+    "hasPower": true,
+    "hasItems": true,
+    "craftTime":1,
+    "rotate":false,
+    "outputsLiquid":true,
+    "craftEffect":"pulverizeMedium",
+    "consumes": {
+        "power": 5,
+        "items": [
+            "阴阳合金/1"
+        ]
+    },
+    "outputLiquid": {
+        "liquid":"阴阳合金液",
+        "amount":0.5
+    },
+    "requirements": [
+        "阴阳合金/800"
+    ],
+    "category": "crafting",
+    "research":{
+        "parent":"阴阳合金厂",
+        "requirements":["阴阳合金/30000"]
+    }
+}

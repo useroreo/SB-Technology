@@ -1,0 +1,18 @@
+{
+	"name": "子弹拦截塔",
+	"description": "拦下对面大量子弹",
+	"details":"除非对面有大量的蜂巢,不然根本打不进来",
+	"type":"ShockwaveTower",
+	"health": 4500,
+	"size": 3,
+	"range":80,
+    "consumePower":5,
+	"hasBoost": true,
+    "reload":10,
+	"requirements": ["强化铅/1000","强化铜/1000","阴阳合金/500"],
+	"category": "effect",
+	"research":{
+		"parent":"segment",
+		"requirements":["强化铅/11000","强化铜/10000","阴阳合金/5000"]
+	}
+}

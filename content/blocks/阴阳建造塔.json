@@ -1,0 +1,20 @@
+{
+	"name": "阴阳建造塔",
+	"description": "加速你的建造!",
+	"details":"他还会帮我修前线?",
+	"type":"BuildTurret",
+	"health": 3500,
+	"size": 3,
+    "outlineColor":"darkOutline",
+	"range":240,
+    "buildSpeed":4,
+	"consumes": {
+		"power": 10
+	},
+	"requirements": ["阴阳合金/10"],
+	"category": "effect",
+	"research":{
+		"parent":"SB核心",
+		"requirements":["阴阳合金/200"]
+	}
+}

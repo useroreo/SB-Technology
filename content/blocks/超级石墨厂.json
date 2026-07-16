@@ -1,0 +1,41 @@
+{
+    "type": "GenericCrafter",
+    "name": "超级石墨厂",
+    "description": "极限压缩铜和铅制得石墨!",
+    "details": "石墨自由!",
+    "itemCapacity": 120,
+    "liquidCapacity":2400,
+    "health": 500,
+    "size": 3,
+    "hasPower": true,
+    "hasItems": true,
+    "craftTime": 1,
+    "craftEffect":"pulverizeMedium",
+    "consumes": {
+        "power": 25,
+        "items": [
+            "copper/1",
+            "lead/1"
+        ],
+        "liquids": [
+            {
+                "liquid": "water",
+                "amount": 20
+            }
+        ]
+    },
+    "outputItem": {
+        "item": "graphite",
+        "amount": 1
+    },
+    "requirements": [
+        "强化铜/520",
+        "强化铅/600",
+        "阴阳合金/100"
+    ],
+    "category": "crafting",
+    "research":{
+        "parent":"multi-press",
+        "requirements":["强化铜/2600","强化铅/2800","阴阳合金/800"]
+    }
+}

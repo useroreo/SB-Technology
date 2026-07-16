@@ -1,0 +1,29 @@
+{
+	"name": "区块超速器",
+	"description": "消耗阴阳合金为整个区块提供超速效果",
+	"details":"达成成就:还要超速穹顶干什么?",
+	"type":"OverdriveProjector",
+	"health": 500,
+	"size": 1,
+	"phaseRangeBoost":1,
+	"speedBoostPhase":8,
+	"range":5600,
+	"speedBoost": 1.5,
+	"hasBoost": true,
+	"useTime": 30,
+	"itemCapacity":100,
+	"consumes": {
+		"power": 30,
+		"items":{
+			"items":["阴阳合金/10"],
+			"booster":true,
+			"optional":true
+		}
+	},
+	"requirements": ["强化铅/110","强化铜/100","阴阳合金/50"],
+	"category": "effect",
+	"research":{
+		"parent":"overdrive-dome",
+		"requirements":["强化铅/1100","强化铜/1000","阴阳合金/500"]
+	}
+}

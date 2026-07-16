@@ -1,0 +1,19 @@
+{
+    "type": "battery",
+    "name": "阴阳电池",
+    "description": "强大的电池,但是与此同时,电池在损毁时爆炸也很壮观!",
+    "details": "这是电疗机吧,什么电池",
+    "size": 1,
+    "health":3700,
+    "requirements": [
+        "阴阳合金/1"
+    ],
+    "consumes": {
+        "powerBuffered": 1000000
+    },
+    "category": "power",
+    "research":{
+        "parent": "battery-large",
+        "requirements": ["阴阳合金/30"]
+    }
+}

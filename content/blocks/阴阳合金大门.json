@@ -1,0 +1,18 @@
+{
+    "type":"AutoDoor",
+    "size":2,
+    "armor":20,
+    "name":"阴阳合金大门",
+    "description":"用阴阳合金制成的大门",
+    "details":"不仅能做门,还能做墙!",
+    "health":1000000,
+    "alwaysReplace":false,
+    "baseExplosiveness":0,
+    "breakSound":"boom",
+    "requirements":["阴阳合金/15"],
+    "category": "defense",
+    "research":{
+	    "parent":"阴阳合金墙",
+	    "requirements":["阴阳合金/65"]
+	}
+}

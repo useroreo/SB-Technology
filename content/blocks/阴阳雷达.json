@@ -1,0 +1,42 @@
+{
+    "type":"PowerTurret",
+    "category":"turret",
+    "name":"阴阳雷达",
+    "description":"标记敌方单位",
+    "details":"标记了一辆载具",
+    "size":3,
+    "health":20000,
+    "reload":0,
+    "inaccuracy":0,
+    "rotateSpeed":50,
+   	"targetAir":true,
+    "targetGround":true,
+    "canOverdrive":true,
+    "range":8000,
+    "shake":0,
+    "recoil":0,
+    "recoilTime":0,
+    "consumes":{
+        "power":100
+    },
+    "shootType":{
+        "speed":999,
+        "hitsize":200,
+        "damage":80,
+        "lifetime":60,
+	    "backColor":"FF0000",
+        "frontColor":"FF0000",
+		"collidesAir":true,
+        "collidesGround":true,
+		"collides":true,
+        "collidesTerrain":true,
+        "hittable":false,
+        "reflectable":false,
+        "status":"暴露"
+    },
+    "research":{
+    "parent": "阴阳电极塔",
+	  	"requirements":["强化铜/50000","强化铅/55000","阴阳合金/35000"]
+    },
+    "requirements": ["强化铜/20000","强化铅/23000","阴阳合金/8500"]
+}

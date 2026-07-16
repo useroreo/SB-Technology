@@ -1,0 +1,32 @@
+{
+	"name": "力墙穹顶",
+	"description": "大面积的力场墙",
+	"details":"这个形状有点奇怪",
+	"type":"ForceProjector",
+	"health": 2000,
+	"size": 3,
+    "phaseRadiusBoost":1.5,
+	"radius":320,
+    "shieldHealth":3000,
+    "cooldownNormal":42,
+    "cooldownLiquid":2,
+	"useTime":10,
+	"itemCapacity":5,
+	"liquidCapacity":100,
+    "cooldownBrokenBase":120,
+	"sides":5,
+	"consumes": {
+		"power": 20,
+		"items":{
+			"items":["阴阳合金/1"],
+			"booster":true,
+			"optional":true
+		}
+	},
+	"requirements": ["强化铅/150","强化铜/130","阴阳合金/80"],
+	"category": "effect",
+	"research":{
+		"parent":"force-projector",
+		"requirements":["强化铅/1500","强化铜/1300","阴阳合金/700"]
+	}
+}

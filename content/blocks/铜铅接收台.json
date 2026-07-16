@@ -1,0 +1,20 @@
+{
+    "type": "LandingPad",
+    "name": "铜铅接收台",
+    "description": "为了方便在物资匮乏的地方从其他地方发射物资过来,我们已经把它优化到了极致,直接使用强化铜底座缓冲,\n因此没有冷却延迟",
+    "details": "极致效率",
+    "health": 1200,
+    "hasPower":false,
+    "hasLiquid":false,
+    "liquidCapacity":0,
+    "consumeLiquidAmount":0,
+    "itemCapacity":15000,
+    "size":2,
+    "coolingEffect":"steamCoolSmoke",
+    "requirements": ["copper/3000","lead/3000"],
+    "category": "effect",
+    "research":{
+	    "parent":"landing-pad",
+	    "requirements":["阴阳合金/36000"]
+	}
+}

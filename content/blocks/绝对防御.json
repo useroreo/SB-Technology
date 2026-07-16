@@ -1,0 +1,16 @@
+{
+	"name": "绝对防御",
+	"description": "绝对的防御",
+	"details":"可惜本体脆了一点,防不住激光",
+	"type":"BaseShield",
+	"health":1,
+	"size": 1,
+	"range":0.1,
+    "consumePower":20,
+	"requirements": ["阴阳合金/1000"],
+	"category": "effect",
+	"research":{
+		"parent":"力墙穹顶",
+		"requirements":["阴阳合金/38000"]
+	}
+}

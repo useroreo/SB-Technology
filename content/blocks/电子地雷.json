@@ -1,0 +1,19 @@
+{
+    "type":"ShockMine",
+    "category":"effect",
+    "name":"电子地雷",
+    "description":"敌人经过上方的时候痛击它!",
+    "details":"空军打不中哦!",
+    "size":1,
+    "health":820,
+    "hasShadow":false,
+    "damage":30,
+    "tileDamage":30,
+    "length":16,
+    "tendrils":8,
+    "research":{
+    "parent": "shock-mine",
+	  	"requirements":["强化铜/280","强化铅/300"]
+    },
+    "requirements": ["强化铜/28","强化铅/20"]
+}

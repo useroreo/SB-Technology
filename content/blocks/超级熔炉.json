@@ -1,0 +1,54 @@
+{
+    "type": "GenericCrafter",
+    "name": "超级熔炉",
+    "description": "用铜和铅制成玻璃!",
+    "details": "其实原版的熔炉已经非常快了",
+    "itemCapacity": 120,
+    "liquidCapacity":7200,
+    "health": 450,
+    "size": 3,
+    "hasPower": true,
+    "hasItems": true,
+    "craftTime": 1,
+    "ambientSound":"loopSmelter",
+    "drawer":[
+        {
+            "type":"DrawDefault"
+        },
+        {
+            "type":"DrawRegion",
+            "suffix":"-top"
+        },
+        {
+            "type":"DrawFlame",
+            "color":"ffffff"
+        }
+    ],
+    "consumes": {
+        "power":30,
+        "items": [
+            "copper/1",
+            "lead/1"
+        ],
+        "liquids": [
+            {
+                "liquid": "water",
+                "amount": 25
+            }
+        ]
+    },
+    "outputItem": {
+        "item": "metaglass",
+        "amount": 1
+    },
+    "requirements": [
+        "强化铜/840",
+        "强化铅/970",
+        "阴阳合金/200"
+    ],
+    "category": "crafting",
+    "research":{
+        "parent":"kiln",
+        "requirements":["强化铜/4800","强化铅/5000","阴阳合金/2200"]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "type": "Drill",
+    "name": "自激钻头",
+    "description": "现有理论下铜铅能够制成的最强的钻头",
+    "details": "已经是应用的极限了,速度快且不额外消耗",
+    "size": 2,
+    "health": 650,
+    "itemCapacity": 70,
+    "liquidCapacity": 150,
+    "tier":4,
+    "drillTime":60,
+    "rotateSpeed":1,
+    "drawMineltem": true,
+    "liquidBoostIntensity":3,
+    "consumes": {
+        "liquid": {
+            "liquid": "water",
+            "amount": 0.3,
+            "optional": true,
+            "booster": true
+        }
+    },
+    "requirements": [
+        "copper/230",
+        "lead/300"
+    ],
+    "category": "production",
+    "research":{
+        "parent": "pneumatic-drill",
+        "requirements": ["copper/1190","lead/1270"]
+    }
+}

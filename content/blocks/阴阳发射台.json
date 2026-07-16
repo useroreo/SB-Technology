@@ -1,0 +1,18 @@
+{
+    "type": "LaunchPad",
+    "name": "阴阳发射台",
+    "description": "大量发射物资到其他区块,\n我们利用阴阳合金强大的电性来电磁弹射",
+    "details": "小巧的体积",
+    "health": 1200,
+    "hasPower":true,
+    "itemCapacity":5000,
+    "launchTime":0,
+    "size":2,
+    "consumePower":10,
+    "requirements": ["阴阳合金/800"],
+    "category": "effect",
+    "research":{
+	    "parent":"advanced-launch-pad",
+	    "requirements":["阴阳合金/36000"]
+	}
+}
