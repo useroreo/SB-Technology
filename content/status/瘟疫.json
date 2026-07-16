@@ -1,0 +1,47 @@
+{
+    "type":"Status",
+    "name":"[green]瘟疫",
+    "permanent":false,
+    "reactive":false,
+    "color":"FFFFFF",
+    "damage":2,
+    
+    "splashDamageRadius":80,
+    "range":80
+    "splashDamage":0.5,
+    "status":"slow",
+    "statusDuration":1200,
+    "collidesAir":true,
+    "collidesGround":true,
+    "collides":true,
+    "collidesTeam":true,
+    "collidesEnemy":true,
+    "knockback":-3,
+    
+    "speedMultiplier":0.5,
+    "healthMultiplier":0.5,
+    "damageMultiplier":0.5,
+    "dragMultiplier":0.5,
+    "reloadMultiplier":0.5,
+    "transitionDamage":0,
+    "description":"[red]染上一个,遍地开花!",
+    "affinities":[
+    ],
+    "opposites":[
+        "平静"
+    ],
+    "effectChance":1,
+    "effect":{
+        "particles":10,
+        "line":true,
+        "lifetime":10,
+        "length":10,
+        "baselength":0,
+        "lenFrom":0,
+        "lento":10,
+        "strokeFrom":0,
+        "strokeTo":5,
+        "colorFrom":"000000",
+        "colorTo":"00CC66"
+    }
+}

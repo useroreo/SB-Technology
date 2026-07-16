@@ -1,0 +1,29 @@
+{
+    "type":"Status",
+    "name":"[yellow]恐惧",
+    "permanent":false,
+    "reactive":false,
+    "color":"FFFFFF",
+    "speedMultiplier":-5,
+    "reloadMultiplier":0.9,
+    "description":"[yellow]快逃跑啊!",
+    "affinities":[
+    ],
+    "opposites":[
+        "平静"
+    ],
+    "effectChance":1,
+    "effect":{
+        "particles":10,
+        "line":true,
+        "lifetime":10,
+        "length":10,
+        "baselength":0,
+        "lenFrom":0,
+        "lento":10,
+        "strokeFrom":0,
+        "strokeTo":5,
+        "colorFrom":"000000",
+        "colorTo":"FFE400"
+    }
+}

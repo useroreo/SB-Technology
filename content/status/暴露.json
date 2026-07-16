@@ -1,0 +1,13 @@
+{
+    "type":"Status",
+    "name":"[purple]暴露",
+    "color":"FF0000",
+    "speedMultiplier":2,
+    "reloadMultiplier":0.8,
+    "description":"[red]你已暴露",
+    "effectChance":1,
+    "effect":{
+        "particles":10,
+        "color":"FF0000"
+    }
+}
