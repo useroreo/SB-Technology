@@ -1,0 +1,38 @@
+{
+  "type": "flying",
+  "localizedName": "蜂巢",
+  "description":"上古时期的蜂巢神",
+  "details":"放烟花喽!!!",
+  "flying": true,
+  "health": 228000,
+  "speed": 2,
+  "engineOffset": 8,
+  "weapons": [
+    {
+      "x": 0,
+      "y":0,
+      "mirror": false,
+      "rotate": false,
+      "shoot": {
+        "shots": 120,
+        "shotDelay": 0
+      },
+      "reload": 120,
+      "inaccuracy": 360,
+      "shootSound": "missile",
+      "bullet": {
+        "type": "MissileBulletType",
+        "damage": 60,
+        "speed": 5,
+        "height": 10,
+        "width": 10,
+        "lifetime":60
+      }
+    }
+  ],
+  "hitSize":5,
+   "research": {
+    "parent": "齐射",
+    "requirements": ["强化铜/4000","强化铅/4800"]
+  }
+} 
