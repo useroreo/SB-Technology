@@ -1,0 +1,9 @@
+{
+    "name":"阴阳合金液",
+    "description":"融化后的阴阳合金,非常珍贵",
+    "details":"冷却效果极佳",
+    "color":"ff0000",
+    "heatCapacity":4,
+    "gasColor":"ff000050",
+    "research":"阴阳合金"
+}
