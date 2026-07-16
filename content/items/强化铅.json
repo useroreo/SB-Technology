@@ -1,0 +1,12 @@
+{
+    "name":"强化铅",
+    "description":"强化过后的铅,具有极强的抗辐射性",
+    "cost":10,
+    "color":"3b3c5b",
+    "hardness":9,
+    "radioactivity":-100,
+    "explosiveness":0,
+    "charge":5,
+    "flammability":1,
+    "research":"lead"
+}

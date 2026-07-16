@@ -1,0 +1,12 @@
+{
+    "name":"阴阳合金",
+    "description":"强化的铜铅合金,具有极高的电性,燃烧性,辐射性和硬度",
+    "cost":16,
+    "color":"ff0000",
+    "hardness":14,
+    "radioactivity":10,
+    "explosiveness":10,
+    "charge":750,
+    "flammability":20,
+    "research":["强化铜","强化铅"]
+}

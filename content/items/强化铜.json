@@ -1,0 +1,12 @@
+{
+    "name":"强化铜",
+    "description":"强化过后的铅,具有极强的韧性",
+    "cost":8,
+    "color":"f4b954",
+    "hardness":8,
+    "radioactivity":0,
+    "explosiveness":0,
+    "charge":5,
+    "flammability":6,
+    "research":"copper"
+}
